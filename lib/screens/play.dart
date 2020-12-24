@@ -106,7 +106,7 @@ class _PlayScreenState extends State<PlayScreen> {
                                 : Icon(FeatherIcons.circle),
                             SizedBox(width: width * 0.02),
                             Text(
-                              "${_win == 0 ? widget.player1.toString() : widget.player2.toString()} Win! 🎉",
+                              "${_win == 0 ? widget.player1.toString() : widget.player2.toString()} Won the game! 🎉",
                               style: blueText2.copyWith(
                                 color: Colors.black,
                                 fontSize: fontSize * 2.5,
