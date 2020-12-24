@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
       designSize: Size(750, 1334),
       allowFontScaling: false,
       child: GetMaterialApp(
-        theme: ThemeData(
-          textTheme: GoogleFonts.luckiestGuyTextTheme(),
-          scaffoldBackgroundColor: white,
-        ),
+       theme: ThemeData(
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: white
+      ).copyWith(textTheme: GoogleFonts.luckiestGuyTextTheme()),
         home: SplashScreen(),
       ),
     );
